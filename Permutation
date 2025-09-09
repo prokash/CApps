@@ -1,0 +1,60 @@
+Algorithms for finding the next permutation
+ThinkingKicking off 1 searchLooking at 20 sitesPutting it all together
+The standard algorithm for finding the next lexicographical permutation
+modifies the permutation in-place in linear time (\(O(n)\)) and
+constant space (\(O(1)\)).
+
+It can be broken down into four steps: Algorithm overview 
+
+Find the pivot: Starting from the right, find the first element that
+is smaller than the element to its right.
+This is your "pivot" element, which needs to be replaced.
+
+Handle the last permutation: If no such element is found,
+it means the permutation is in descending order (e.g., [5, 4, 3, 2, 1])
+and is the lexicographically last one.
+
+
+In this case, reverse the entire sequence to get the first
+(sorted ascending) permutation.Find t
+
+Search the elements to the right of the pivot for the
+smallest number that is still greater than the pivot.
+Swap and reverse:
+    Swap the pivot with this successor element.
+    Then, reverse the entire sub-array of elements that is
+    to the right of the pivot.
+
+    Example: Finding the next permutation of [1, 3, 5, 4, 2]
+    Find the pivot::: A[i] < A[i+1]
+    Scan from right to left:2 is not smaller than its right neighbor (it has none).
+    4 is not smaller than 2.
+    5 is not smaller than 4.
+    3 is smaller than 5. We have found our pivot, which is 3 at index 1.
+
+    Find the successor: smallest number greater than 3
+
+    Scan(left to right) the elements to the right of 3 ([5, 4, 2]) for the smallest
+    number greater than 3:
+    5 is greater than 3.
+    4 is greater than 3.
+    2 is not greater than 3.
+    The smallest number greater than 3 is 4.
+    Swap:
+    Swap the pivot (3) with the successor (4).
+    The array [1, 3, 5, 4, 2] becomes [1, 4, 5, 3, 2].
+    Reverse the suffix:
+    Reverse the sub-array starting from the position after the pivot
+    (index 2), which is [5, 3, 2].
+    Reversing this sub-array gives [2, 3, 5].
+    The final result is [1, 4, 2, 3, 5].
+
+    C++ standard library::
+    The C++ Standard Template Library (STL) provides a
+    built-in function
+    std::next_permutation in the <algorithm> header that
+    implements this exact algorithm.
+    It modifies the sequence in-place and returns
+    true if a next permutation was found,
+    or false if the sequence was already the last permutation.
+

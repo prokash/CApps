@@ -1,0 +1,115 @@
+Top 75 DSA Questions
+Last Updated : 23 Jul, 2025
+In this post, we present a list of the top 75 data structures and algorithms (DSA) coding questions to help you prepare for a thorough revision for interviews at leading tech companies like Meta, Google, Amazon, Apple, Microsoft, etc. This list helps you to cover an extensive variety of DSA Coding questions ensuring you don't miss any key concepts that could appear in the interview.
+
+Arrays
+
+Next Permutation
+Stock Buy and Sell - Multiple Transactions Allowed
+Minimize the Heights
+First Missing Positive
+String
+
+String to Integer - Your Own atoi()
+Anagram Check
+First Non-Repeating Character
+Min Chars to Add for Palindrome
+Sorting
+
+Sort 0s, 1s and 2s
+Count Inversions
+Insert and Merge Interval
+Merge two sorted arrays without extra space
+Chocolate Distribution Problem
+Searching
+
+Search in Rotated Sorted Array
+Peak Element
+K-th element of two sorted arrays
+Allocate Minimum Pages
+Kth Missing Positive Number
+Matrix
+
+Spiral Traversal
+Search in a sorted matrix
+Set Matrix Zeroes
+Hashing
+
+Print all pairs with given sum
+Longest Subsequence with Adjacent Difference of 0 or 1
+Longest Consecutive Sequence
+Count Subarrays with given XOR
+Two Pointer Technique
+
+Triplet Sum
+Longest Substring With Distinct Characters
+Trapping Rain Water
+Prefix Sum
+
+Longest Subarray with Equal No of 0s and 1s
+Product of Array except Self
+Find Starting Petrol Pump for Circular Tour
+Linked List
+
+Reverse a linked list in groups
+Segregate even and odd nodes in a Linked List
+Clone a Linked List
+Remove Loop in Linked List
+LRU Cache
+Backtracking
+
+Permutations of a String
+N Queens
+Tree
+
+Construct Tree from Inorder and Preorder
+Boundary Traversal
+Count all K Sum Paths in Binary Tree
+Fixing Two nodes of BST
+LCA in BST
+Largest BST in a Tree
+Heap
+
+Merge K Sorted Lists
+Median of a Stream
+Top K Frequent Elements in an Array
+Stack
+
+Longest Valid Parentheses
+Largest Area in a Histogram
+Maximum and Minimum of every window size
+Min Stack
+Queue and Deque
+
+Sliding Window Maximum
+Maximum score with jumps of at most length K
+Dynamic Programming
+
+Subset Sum Problem
+Longest Increasing Subsequence
+Longest Palindromic Subsequence
+Count Palindromic Substring
+Minimum Jumps to Reach End
+Coin Change - Minimum Coins
+Stock Buy and Sell - Max K Transactions Allowed
+House Robber II
+Word Break
+Count Possible Decodings of a Digit Sequence
+Greedy
+
+Minimum Platforms
+Job Sequencing
+Maximize Partitions with Unique Characters
+Graph
+
+Islands in a Graph
+Minimum time to Rot Oranges
+Cycle in an Undirected Graph
+Cycle in a Directed Graph
+Topological Sorting
+Minimum Cost to connect all points
+City with Fewest Neighbors Within Threshold Distance
+Email Account Merging
+Trie
+
+Insert and Search in a Trie

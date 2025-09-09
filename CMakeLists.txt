@@ -1,11 +1,9 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.28.6)
 project(CApps C)
 
 set(CMAKE_C_STANDARD 11)
 
 add_executable(CApps main.c
-        sometests.c
-        sometests.h
         Q.c
         Q.h
         str.c
